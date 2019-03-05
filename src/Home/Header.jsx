@@ -1,31 +1,16 @@
 import React from 'react';
-import { Row, Col, Tooltip } from 'antd';
-import { header } from './data';
+import { Button } from 'antd';
 
 export default function Header(props) {
-  const menuChild = header.map((item, i) => {
-    const content = item.children.map((child, ii) => (
-      <a herf={child.link} key={ii.toString()} className="tip-block">
-        <span className="tip-img"><img src={child.img} alt="img" /></span>
-        <div className="tip-content">
-          {child.title}
-          <div>{child.desc}</div>
-        </div>
-      </a>
-    ));
-    return (
-      <Col key={i.toString()} span={6}>
-        <Tooltip title={content} placement="bottom" overlayClassName="header-tip-wrap">
-          <span className="nav-title">{item.title}</span>
-        </Tooltip>
-      </Col>
-    );
-  });
   return (
     <header {...props}>
-      <Row className="nav">
-        {menuChild}
-      </Row>
+      <a className="logo-wrapper" href="https://antv.alipay.com/zh-cn/index.html" target="_blank">
+        <i className="logo" />
+        <span>AntV</span>
+      </a>
+      <div className="button">
+        <Button>返回旧版</Button>
+      </div>
     </header>
   );
 }

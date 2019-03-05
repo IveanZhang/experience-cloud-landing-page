@@ -29,12 +29,12 @@ export default class Tetris extends React.PureComponent {
           <TweenOne component="g" animation={hover ? fall : fallRe}>
             <g id="Group" transform="translate(132.000000, 0.000000)">
               <g id="Group-84">
-                <rect id="Rectangle-6" fillOpacity="0.55" fill="#40A9FF" x="22" y="0" width="20" height="20" />
-                <rect id="Rectangle-8" fill="#A23AFF" x="22" y="20" width="20" height="1.5" />
-                <rect id="Rectangle-8" fill="#FADB14" x="44" y="20" width="20" height="1.5" />
-                <rect id="Rectangle-8" fill="#26ADFF" x="0" y="20" width="20" height="1.5" />
-                <rect id="Rectangle-6" fillOpacity="0.55" fill="#40A9FF" x="44" y="0" width="20" height="20" />
-                <rect id="Rectangle-6" fillOpacity="0.55" fill="#40A9FF" x="0" y="0" width="20" height="20" />
+                <rect id="Rectangle-6"  fill="#d5c270" x="22" y="0" width="20" height="20" />
+                <rect id="Rectangle-8" fill="#445ffe" x="22" y="20" width="20" height="1.5" />
+                <rect id="Rectangle-8" fill="#445ffe" x="44" y="20" width="20" height="1.5" />
+                <rect id="Rectangle-8" fill="#445ffe" x="0" y="20" width="20" height="1.5" />
+                <rect id="Rectangle-6" fill="#445ffe" x="44" y="0" width="20" height="20" />
+                <rect id="Rectangle-6" fill="#445ffe" x="0" y="0" width="20" height="20" />
               </g>
               <TweenOne component="g" animation={hover ? removeAnim : { opacity: 1 }} >
                 <g id="Group-83" transform="translate(22.000000, 23.000000)">
@@ -75,7 +75,7 @@ export default class Tetris extends React.PureComponent {
             <rect id="Rectangle-6" fill="#1890FF" opacity="0.15" x="242" y="1" width="20" height="20" />
             <rect id="Rectangle-6" fill="#1890FF" opacity="0.08" x="110" y="23" width="20" height="20" />
             <rect id="Rectangle-6" fill="#1890FF" opacity="0.1" x="132" y="23" width="20" height="20" />
-            <rect id="Rectangle-6" fill="#1890FF" opacity="0.08" x="88" y="23" width="20" height="20" />
+            <rect id="Rectangle-6" fill="#fa8c16" opacity="0.08" x="88" y="23" width="20" height="20" />
             <rect id="Rectangle-6" fill="#1890FF" opacity="0.05" x="44" y="23" width="20" height="20" />
             <rect id="Rectangle-6" fill="#1890FF" opacity="0.08" x="66" y="23" width="20" height="20" />
             <rect id="Rectangle-6" fill="#1890FF" opacity="0.05" x="22" y="23" width="20" height="20" />
@@ -112,8 +112,8 @@ export default class Tetris extends React.PureComponent {
                 <rect id="Rectangle-6" fill="#1890FF" opacity="0.3" x="0" y="1" width="20" height="20" />
               </g>
               <g id="Group-74" transform="translate(176.000000, 0.000000)">
-                <rect id="Rectangle-8" fill="#FADB14" opacity="0.9" x="0" y="0" width="20" height="1.5" />
-                <rect id="Rectangle-6" fill="#1890FF" opacity="0.35" x="0" y="1" width="20" height="20" />
+                <rect id="Rectangle-8" fill="#1890FF" opacity="0.9" x="0" y="0" width="20" height="1.5" />
+                <rect id="Rectangle-6" fill="#d5c270" opacity="0.72" x="0" y="1" width="20" height="20" />
               </g>
               <rect id="Rectangle-6" fill="#1890FF" opacity="0.3" x="242" y="1" width="20" height="20" />
               <rect id="Rectangle-6" fill="#1890FF" opacity="0.1" x="264" y="2" width="20" height="20" />

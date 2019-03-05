@@ -1,60 +1,36 @@
-import 'rc-banner-anim/assets/index.css';
 import React from 'react';
-import QueueAnim from 'rc-queue-anim';
-import BannerAnim from 'rc-banner-anim';
-import { Button } from 'antd';
-import { banner } from './data';
-
-const { Element } = BannerAnim;
-const { BgElement } = Element;
+import PropTypes from 'prop-types';
+import './static/banner.less';
 
 class Banner extends React.PureComponent {
-  getDuration = (e) => {
-    if (e.key === 'map') {
-      return 800;
-    }
-    return 1000;
-  };
+  static propTypes = {
+    className: PropTypes.string,
+    isMobile: PropTypes.bool,
+    navToShadow: PropTypes.func,
+  }
+  static defaultProps = {
+    className: 'banner',
+  }
   render() {
-    const { isMobile } = this.props;
-    const bannerChildren = banner.map((item, i) => {
-      const children = item.children.map((child, ii) => {
-        const tag = child.tag === 'button' ? 'div' : child.tag || 'p';
-        const childrenToRender = child.tag === 'button' ?
-          <Button><a href={child.link} target="_blank">{child.children}</a></Button> :
-          child.children;
-        return React.createElement(tag, {
-          key: ii.toString(),
-          className: child.className,
-          style: child.style || {},
-        }, childrenToRender);
-      });
-      return (
-        <Element key={i.toString()}>
-          <BgElement
-            key="bg"
-            className="banner-bg"
-            style={{ backgroundImage: `url(${isMobile ? item.imgMobile : item.img})` }}
-          />
-          <QueueAnim
-            key="text"
-            className={item.className}
-            ease={['easeOutCubic', 'easeInQuad']}
-            type={item.queueAnim || 'bottom'}
-          >
-            {children}
-          </QueueAnim>
-        </Element >);
-    });
+
     return (
-      <div className="banner page-wrapper" >
-        <div className="page">
-          <div className="logo" />
-          <BannerAnim type="across" duration={550} ease="easeInOutQuint">
-            {bannerChildren}
-          </BannerAnim>
+        <div id="react-content">
+          <section id="video-container">
+            <video autoPlay muted loop>
+              <source src="https://mdn.alipayobjects.com/afts/file/A*grJPTKqmP9QAAAAAAAAAAABjAQAAAQ?bz=antv_site" />
+            </video>
+            <div className="overlay">
+              <div className="homepage-title">
+                <div className="title">LiangZi IT Inc.</div>
+                <p className="content">量子科技致力于提供一站式
+                  <br /> 专业可靠、无限可能的平台开发，数据分析的最佳实践。
+                </p>
+                <a className="link" href="#service"><button className="btn-more">了解更多</button></a>
+              </div>
+              <img id="arrow" src="https://gw.alipayobjects.com/zos/rmsportal/cfUeahyjXCvoeUHrZDcE.svg" width="64" height="64"></img>
+            </div>
+          </section>
         </div>
-      </div>
     );
   }
 }

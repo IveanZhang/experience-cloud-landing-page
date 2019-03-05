@@ -26,18 +26,18 @@ const rectArray = [
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.15" x="20" y="62" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.4" x="200" y="62" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.3" x="220" y="62" width="18" height="18" />,
-  <rect id="Rectangle-6" fill="#1890FF" opacity="0.8" x="160" y="62" width="18" height="18" />,
+  <rect id="Rectangle-6" fill="#2765FF" opacity="0.8" x="160" y="62" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.6" x="180" y="62" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.05" x="300" y="62" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.3" x="240" y="62" width="18" height="18" />,
-  <rect id="Rectangle-6" fill="#1890FF" opacity="0.6" x="120" y="62" width="18" height="18" />,
-  <rect id="Rectangle-6" fill="#1890FF" opacity="0.8" x="140" y="62" width="18" height="18" />,
+  <rect id="Rectangle-6" fill="#577cb0" opacity="0.6" x="120" y="62" width="18" height="18" />,
+  <rect id="Rectangle-6" fill="#38c5fa" opacity="0.8" x="140" y="62" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.2" x="40" y="82" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.4" x="200" y="82" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.3" x="220" y="82" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.7" x="160" y="82" width="18" height="18" />,
-  <rect id="Rectangle-6" fill="#1890FF" opacity="0.6" x="180" y="82" width="18" height="18" />,
-  <rect id="Rectangle-6" fill="#1890FF" opacity="0.4" x="120" y="82" width="18" height="18" />,
+  <rect id="Rectangle-6" fill="#d5c270" opacity="0.6" x="180" y="82" width="18" height="18" />,
+  <rect id="Rectangle-6" fill="#1890ff" opacity="0.4" x="120" y="82" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.7" x="140" y="82" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.3" x="220" y="102" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.5" x="160" y="102" width="18" height="18" />,
@@ -52,7 +52,7 @@ const rectArray = [
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.4" x="180" y="2" width="18" height="18" />,
   <rect id="Rectangle-6" fill="#1890FF" opacity="0.4" x="120" y="2" width="18" height="18" />,
   <g id="Group-47" transform="translate(120.000000, 40.000000)">
-    <rect id="Rectangle-6" fill="#1890FF" opacity="0.6" x="0" y="2" width="18" height="18" />
+    <rect id="Rectangle-6" fill="#d5c270" opacity="0.6" x="0" y="2" width="18" height="18" />
     <rect id="Rectangle-10" fill="#EB2F96" opacity="0.9" x="0" y="0.5" width="18" height="1.5" />
   </g>,
   <g id="Group-46" transform="translate(40.000000, 60.000000)">

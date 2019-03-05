@@ -1,0 +1,99 @@
+#video-container{
+	width: 100%;
+	height:100vh;
+	z-index: 0;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+
+#video-container video{
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+#video-container .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(45, 57, 103, 0.6);
+}
+#video-container .homepage-title {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	position: absolute;
+	top: 46%;
+	margin-top: -70px;
+	width: 100%;
+	z-index: 1;
+	.title{
+		font-size: 48px;
+	}
+	.content{
+		font-size: 22px;
+		margin-top: 2%; 
+		color: rgba(255, 255, 255, 0.85);
+	}
+	.btn-more{
+		margin-top: 51px;
+	}
+}
+
+#video-container .homepage-logo {
+	position: absolute;
+	bottom: -90px;
+	left: 50%;
+	margin-left: -63px;
+	width: 126px;
+	height: 126px;
+	padding-top: 34px;
+	border-radius: 63px;
+	background-color: #fff;
+}
+#video-container .btn-more{
+	border: none;
+	outline: none;
+	color: #fff;
+	padding: 8px 26px;
+	font-size: 16px;
+	background: linear-gradient(-135deg, #935EFF, #625EFF);
+	border-radius: 4px;
+}
+
+@-webkit-keyframes updown {
+	0%   {bottom: 20px}
+	50%  {bottom: 5px}
+	100%   {bottom: 20px}
+}
+
+#video-container #arrow {
+	width: 20px;
+	height: 18px;
+	position: absolute;
+	bottom: 18px;
+	left: 50%;
+	margin-left: -10px;
+	animation: updown 3s ease-in-out infinite;
+	// animation-timing-function: cubic-bezier(0.36, 0.72, 0.35, 0.92);
+}
+@media (max-width: 768px){
+	#video-container .homepage-title{
+		.title{
+			font-size: 27px;
+		}
+		.content{
+			font-size: 16px;
+			padding: 20px;
+		}
+		.btn-more{
+			font-size: 14px;
+			padding: 8px 20px;
+			margin-top: 30px;
+		}
+	}
+}

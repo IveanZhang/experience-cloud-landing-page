@@ -34,20 +34,24 @@ export default class Column extends React.PureComponent {
       <svg width="328px" height="150px" viewBox="0 0 328 150">
         <defs>
           <linearGradient x1="50%" y1="3.05125957%" x2="50%" y2="157.404891%" id="linearGradient-1">
-            <stop stopColor="#2898FF" offset="0%" />
-            <stop stopColor="#1890FF" stopOpacity="0" offset="100%" />
+            <stop stopColor="#39C8FB" offset="0%"></stop>
+            <stop stopColor="#1890FF" stopOpacity="0" offset="100%"></stop>
           </linearGradient>
-          <linearGradient x1="50%" y1="3.05125957%" x2="50%" y2="199.391593%" id="linearGradient-2">
-            <stop stopColor="#1890FF" offset="0%" />
-            <stop stopColor="#1890FF" stopOpacity="0" offset="100%" />
+          <linearGradient x1="50%" y1="3.05125957%" x2="50%" y2="178.3625%" id="linearGradient-2">
+            <stop stopColor="#FAD45B" offset="0%"></stop>
+            <stop stopColor="#1890FF" stopOpacity="0" offset="100%"></stop>
           </linearGradient>
           <linearGradient x1="50%" y1="3.05125957%" x2="50%" y2="203.500014%" id="linearGradient-3">
             <stop stopColor="#1890FF" offset="0%" />
             <stop stopColor="#1890FF" stopOpacity="0" offset="100%" />
           </linearGradient>
           <linearGradient x1="50%" y1="3.05125957%" x2="50%" y2="178.3625%" id="linearGradient-4">
-            <stop stopColor="#1890FF" offset="0%" />
-            <stop stopColor="#1890FF" stopOpacity="0" offset="100%" />
+            <stop stopColor="#0011ff" offset="0%" />
+            <stop stopColor="#0011ff" stopOpacity="0" offset="100%" />
+          </linearGradient>
+          <linearGradient x1="65.2246094%" y1="88.090625%" x2="65.2246094%" y2="0%" id="linearGradient-5">
+            <stop stopColor="#0D3CDF" offset="0%"></stop>
+            <stop stopColor="#1874F3" offset="100%"></stop>
           </linearGradient>
         </defs>
         <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
@@ -71,8 +75,8 @@ export default class Column extends React.PureComponent {
           </TweenOneG>
           <TweenOneG animation={hover ? [{ y: -15 }, { y: 0 }, { y: -30 }] : this.default1Anim} >
             <g id="Group-30" transform="translate(66.000000, 63.000000)">
-              <rect id="Rectangle-15" fill="#A0D911" opacity="0.6" transform="translate(10.000000, 1.250000) scale(1, -1) translate(-10.000000, -1.250000) " x="0" y="0.5" width="20" height="1.5" />
-              <rect id="Rectangle-15" fill="#1890FF" opacity="0.2" x="0" y="2" width="20" height="198" />
+              <rect id="Rectangle-15" fill="url(#linearGradient-2)" opacity="0.6" transform="translate(10.000000, 1.250000) scale(1, -1) translate(-10.000000, -1.250000) " x="0" y="0.5" width="20" height="1.5" />
+              <rect id="Rectangle-15" fill="url(#linearGradient-2)" opacity="0.2" x="0" y="2" width="20" height="198" />
             </g>
           </TweenOneG>
           <TweenOneG animation={hover ? [{ y: -20 }, { y: 10 }, { y: -30 }] : this.default1Anim} >
@@ -84,25 +88,25 @@ export default class Column extends React.PureComponent {
           <TweenOneG animation={hover ? [{ y: 20 }, { y: -10 }, { y: 40 }] : this.default1Anim} >
             <g id="Group-28" transform="translate(110.000000, 36.000000)">
               <rect id="Rectangle-15" fill="#26ADFF" opacity="0.85" transform="translate(10.000000, 1.250000) scale(1, -1) translate(-10.000000, -1.250000) " x="0" y="0.5" width="20" height="1.5" />
-              <rect id="Rectangle-15" fill="url(#linearGradient-3)" opacity="0.35" x="0" y="2" width="20" height="225" />
+              <rect id="Rectangle-15" fill="url(#linearGradient-1)" opacity="0.35" x="0" y="2" width="20" height="225" />
             </g>
           </TweenOneG>
           <TweenOneG animation={hover ? [{ y: -20 }, { y: 10 }, { y: -40 }] : this.default1Anim} >
             <g id="Group-26" transform="translate(132.000000, 48.000000)">
-              <rect id="Rectangle-15" fill="#FA8C16" opacity="0.9" transform="translate(10.000000, 1.250000) scale(1, -1) translate(-10.000000, -1.250000) " x="0" y="0.5" width="20" height="1.5" />
-              <rect id="Rectangle-15" fill="url(#linearGradient-2)" opacity="0.45" x="0" y="2" width="20" height="213" />
+              <rect id="Rectangle-15" fill="#FA8C16"  transform="translate(10.000000, 1.250000) scale(1, -1) translate(-10.000000, -1.250000) " x="0" y="0.5" width="20" height="1.5" />
+              <rect id="Rectangle-15" fill="url(#linearGradient-2)"  x="0" y="2" width="20" height="213" />
             </g>
           </TweenOneG>
           <TweenOneG animation={hover ? [{ y: 30 }, { y: 0 }, { y: 50 }] : this.default1Anim}>
             <g id="Group-11" transform="translate(154.000000, 0.000000)">
-              <rect id="Rectangle-15" fill="url(#linearGradient-1)" opacity="0.55" x="0" y="2" width="20" height="261" />
-              <rect id="Rectangle-15" fill="#FADB14" transform="translate(10.000000, 1.250000) scale(1, -1) translate(-10.000000, -1.250000) " x="0" y="0.5" width="20" height="1.5" />
+              <rect id="Rectangle-15" fill="url(#linearGradient-1)" x="0" y="2" width="20" height="261" />
+              <rect id="Rectangle-15" fill="#00a5e2" transform="translate(10.000000, 1.250000) scale(1, -1) translate(-10.000000, -1.250000) " x="0" y="0.5" width="20" height="1.5" />
             </g>
           </TweenOneG>
           <TweenOneG animation={hover ? [{ y: -30 }, { y: 20 }, { y: -20 }] : this.default1Anim}>
             <g id="Group-41" transform="translate(176.000000, 36.000000)">
-              <rect id="Rectangle-15" fill="#17EFEF" opacity="0.9" transform="translate(10.000000, 1.250000) scale(1, -1) translate(-10.000000, -1.250000) " x="0" y="0.5" width="20" height="1.5" />
-              <rect id="Rectangle-15" fill="url(#linearGradient-4)" opacity="0.45" x="0" y="2" width="20" height="225" />
+              <rect id="Rectangle-15" fill="#0011ff" opacity="0.7" transform="translate(10.000000, 1.250000) scale(1, -1) translate(-10.000000, -1.250000) " x="0" y="0.5" width="20" height="1.5" />
+              <rect id="Rectangle-15" fill="url(#linearGradient-5)" x="0" y="2" width="20" height="225" />
             </g>
           </TweenOneG>
           <TweenOneG animation={hover ? [{ y: -20 }, { y: 0 }, { y: -40 }] : this.default1Anim}>
